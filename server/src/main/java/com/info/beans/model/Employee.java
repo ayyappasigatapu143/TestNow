@@ -18,7 +18,7 @@ public class Employee {
 	@GeneratedValue(strategy =GenerationType.AUTO)
 	private Integer id;
 	
-	
+	//fname
 	private String firstname;
 	private String lastname;
 	private String email;
@@ -44,6 +44,7 @@ public class Employee {
 	public String getEmail() {
 		return email;
 	}
+	//comm
 	public void setEmail(String email) {
 		this.email = email;
 	}
