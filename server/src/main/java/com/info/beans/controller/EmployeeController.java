@@ -35,13 +35,13 @@ public class EmployeeController {
 	public List<Employee> getAllUsers() {
 		return empService.getAllEmployees();
 	}
-	/
+	
 	@GetMapping("/authenticate")
 	public String  isAppAuthenticated() {
 	
 		return "hello";
 	}
-	//comment added
+	
 	@GetMapping("/saf")
 	public String  isAppAuthenticate() {
 			return "hello";
